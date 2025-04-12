@@ -6,9 +6,9 @@ public class User {
     public String name;
     public String userType;
     public String email;
-    public int phoneNum;
+    public String phoneNum;
     
-    public User(String userID,String password,String name,String userType,String email,int phoneNum)
+    public User(String userID,String password,String name,String userType,String email,String phoneNum)
     {
         this.userID=userID;
         this.name=name;
@@ -43,7 +43,7 @@ public class User {
         return email;
     }
     
-    public int getPhoneNum()
+    public String getPhoneNum()
     {
         return phoneNum;
     }        
